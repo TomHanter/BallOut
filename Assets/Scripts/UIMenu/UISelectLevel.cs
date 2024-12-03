@@ -11,8 +11,7 @@ public class UISelectLevel : MonoBehaviour
     [SerializeField] private GameObject buttonPrefab;
     [SerializeField] private GameObject levelMenu;
     [SerializeField] private Transform buttonContent;
-    [SerializeField] private int maxLevels = 1000;
-    private Text buttonText;
+    [SerializeField] private int maxLevels = 110;
 
     private void Start()
     {
@@ -24,7 +23,7 @@ public class UISelectLevel : MonoBehaviour
         for (int i = 1; i <= maxLevels; i++)
         {
             GameObject newButton = Instantiate(buttonPrefab, buttonContent);
-            buttonText = newButton.GetComponentInChildren<Text>();
+            Text buttonText = newButton.GetComponentInChildren<Text>();
             buttonText.text = i.ToString();
 
             int levelIndex = i;
@@ -41,8 +40,13 @@ public class UISelectLevel : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void ActiveMenu()
+    public void ActiveMenuButton()
     {
         levelMenu.SetActive(true);
+    }
+
+    public void NotActiveMenuButton()
+    {
+        levelMenu.SetActive(false);
     }
 }

@@ -148,6 +148,20 @@ MonoBehaviour:
   ball: {fileID: 4803738439568453723, guid: ef7f45f562fed4940b8d891a8ea3dc88, type: 3}
   ballBig: {fileID: 4803738439568453723, guid: b7516d6d81dd31c44af5ec7ddbb50a19, type: 3}
   ballMid: {fileID: 4803738439568453723, guid: 6e1e1ab17a5d0ca49aabbbb775f4175e, type: 3}
+  ballFruits:
+  - {fileID: -5651726514345223585, guid: 33f5a7731129f834a81ceee87a82bad7, type: 3}
+  - {fileID: 2203646523038890017, guid: 60cefbed3eb16b842b66bd09729fbdb6, type: 3}
+  - {fileID: -4360911576726662269, guid: 9c0eca28324911445aec7c9deb751354, type: 3}
+  - {fileID: -4728449768672866401, guid: 2dc283c97e191a14096532f6725b2767, type: 3}
+  - {fileID: 6770315986413849071, guid: d5326703a62a26d44b1c13c96c720467, type: 3}
+  - {fileID: -6063539546653569460, guid: 677fa4a07d4f2654b967324c698baef6, type: 3}
+  - {fileID: -2201948182690753843, guid: 03de9cb36f54e894694e1c99a1311b07, type: 3}
+  - {fileID: -1341003641023686845, guid: 670345d234ed543409b17dd481ce1705, type: 3}
+  - {fileID: 971796703939528287, guid: ce113180661f331418f57173bdd68c5e, type: 3}
+  - {fileID: -976387874866882444, guid: fbe68da20431c944699e46a34217505e, type: 3}
+  - {fileID: -1926713728387508545, guid: 8498e91f58d02ab41b1173f213479f7d, type: 3}
+  - {fileID: -5298266770955752810, guid: bfa575caf4240bd44a14473b6d440ec5, type: 3}
+  - {fileID: 890931651652233150, guid: 20c8be1666a5c814994d0b648a055933, type: 3}
   wavesCount: 3
   backgroundsStr:
   - Assets/Resources/Textures/BG1.png
