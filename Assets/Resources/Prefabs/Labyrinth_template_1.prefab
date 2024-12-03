@@ -1000,6 +1000,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2507802783034253943}
     m_Modifications:
+    - target: {fileID: 724469058774425218, guid: 4c4d727f97fcbea498c4e72006b61bb6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3029039415457533154, guid: 4c4d727f97fcbea498c4e72006b61bb6,
         type: 3}
       propertyPath: edges.Array.data[0].destroyed
@@ -2000,6 +2005,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: circle_template
       objectReference: {fileID: 0}
+    - target: {fileID: 3029039415457565466, guid: 4c4d727f97fcbea498c4e72006b61bb6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3029039415457565612, guid: 4c4d727f97fcbea498c4e72006b61bb6,
         type: 3}
       propertyPath: m_IsActive
@@ -2099,6 +2109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: circle_plane_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953127163289910825, guid: d0cce526b5404d34c9a0a4cdd11b8b5c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4953127163289936393, guid: d0cce526b5404d34c9a0a4cdd11b8b5c,
         type: 3}
