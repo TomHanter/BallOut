@@ -387,10 +387,13 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
                 else if (ballSize < 9) ballSize = 1;
                 else if (ballSize < 10) ballSize = 2;
                 if (count >= max) continue;
-                switch (playerState.level)
+                switch (playerState.level + 1)
                 {
-                    case 1:
+                    case 2:
                         ball = Instantiate(gameConfig.ballFruits[Random.Range(0, gameConfig.ballFruits.Length)], newLab.transform);
+                        break;
+                    case 3:
+                        ball = Instantiate(gameConfig.ballWater, newLab.transform);
                         break;
                     default:
                         ball = Instantiate(ballSize == 2 ? gameConfig.ballBig : ballSize == 1 ? gameConfig.ballMid : gameConfig.ball, newLab.transform);
