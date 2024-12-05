@@ -22,9 +22,9 @@ MonoBehaviour:
   - Assets/Resources/Prefabs/Labyrinth_tutorial 31.prefab
   - Assets/Resources/Prefabs/Labyrinth_tutorial 32.prefab
   - Assets/Resources/Prefabs/Fruits/Labyrinth_apple.prefab
+  - Assets/Resources/Prefabs/Fruits/Labyrinth_berry.prefab
   - Assets/Resources/Prefabs/Fruits/Labyrinth_peach.prefab
   - Assets/Resources/Prefabs/Fruits/Labyrinth_orange.prefab
-  - Assets/Resources/Prefabs/Fruits/Labyrinth_berry.prefab
   - Assets/Resources/Prefabs/Labyrinth_tutorial_gen_4.prefab
   - Assets/Resources/Prefabs/Labyrinth_tutorial_gen_5.prefab
   - Assets/Resources/Prefabs/Labyrinth_tutorial_gen_6.prefab
